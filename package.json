@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "Projeto de automação de testes de integração da API de Usuários",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha ./tests/test.js"
+    "test-contract": "mocha ./tests/contract/**/**/**/**.js",
+    "test-e2e": "mocha ./tests/e2e/**/**/**/**.js",
+    "test-functional": "mocha ./tests/functional/**/**/**/**.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "chai": "^5.1.1",
+    "install": "^0.13.0",
+    "joi": "^17.13.3",
     "mocha": "^10.7.3",
+    "npm": "^10.9.0",
     "pactum": "^3.7.1"
   }
 }
