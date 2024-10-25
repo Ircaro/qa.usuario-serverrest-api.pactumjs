@@ -43,3 +43,22 @@ export const ct004 = {
         administrador: "true"
     }
 }
+
+export const ct005 = {
+    expectMessage: "Registro excluído com sucesso",
+    request: {
+        nome: faker.person.fullName(),
+        email: faker.internet.email(),
+        password: faker.internet.password(),
+        administrador: "true"
+    }
+}
+
+export const ct006 = {
+    request: {
+        nome: faker.person.fullName(),
+        email: faker.internet.email(),
+        password: faker.internet.password(),
+        administrador: "true"
+    }
+}

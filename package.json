@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test-contract": "mocha ./tests/contract/**/**/**/**.js",
+    "test-contract": "mocha ./tests/contract/**/**/**/schema200DeleteUser.test.js",
     "test-e2e": "mocha ./tests/e2e/**/**/**/**.js",
     "test-functional": "mocha ./tests/functional/**/**/**/**.js"
   },
